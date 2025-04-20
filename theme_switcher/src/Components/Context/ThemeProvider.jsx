@@ -3,7 +3,7 @@ import { themeContext } from './ThemeContext'
 
 export default function ThemeProvider({children}) {
 
-    const [theme, settheme] = useState(true)
+    const [theme, settheme] = useState(false)
 
     const toggleTheme = () => {
         settheme(!theme)
